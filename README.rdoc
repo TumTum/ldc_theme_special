@@ -1,0 +1,4 @@
+= ldc_theme_special
+
+Das Plugin soll hauptsächlich etwas das HTML verändern können.
+Unter anderen baut es die Apple Home Icons ein.
