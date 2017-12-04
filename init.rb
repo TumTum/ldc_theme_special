@@ -7,4 +7,4 @@ Redmine::Plugin.register :ldc_theme_special do
   author_url 'http://www.tobimat.eu'
 end
 
-
+require_dependency 'ldc_apple_icons'
