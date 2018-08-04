@@ -1,4 +1,7 @@
 = ldc_theme_special
 
 Das Plugin soll hauptsächlich etwas das HTML verändern können.
-Unter anderen baut es die Apple Home Icons ein.
+
+- Unter anderen baut es den Apple Home Icons.
+- Bennent Abgabedatum in Endatum um
+- Macht einen Redmine AssigneeChange bei Status wechsel
