@@ -1,0 +1,25 @@
+.custom-combobox {
+    position: relative;
+}
+
+.custom-combobox-toggle {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin-left: -2px;
+    padding: 0;
+}
+
+.custom-combobox-input {
+    margin: 0;
+    width: 240px;
+    padding: 5px 10px !important;
+}
+
+#AssigneeChangeMenu .ui-autocomplete {
+    max-height: 250px;
+    overflow-y: auto;
+    /* prevent horizontal scrollbar */
+    overflow-x: hidden;
+}
+

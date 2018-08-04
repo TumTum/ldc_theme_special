@@ -8,3 +8,4 @@ Redmine::Plugin.register :ldc_theme_special do
 end
 
 require_dependency 'ldc_apple_icons'
+require_dependency 'ldc_Issues'

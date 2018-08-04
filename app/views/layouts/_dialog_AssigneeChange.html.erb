@@ -1,0 +1,25 @@
+<div id="dialog_AssigneeChange" title="Zuweisen an" style="display: none">
+  <form>
+    <fieldset>
+      <div class="custom-combobox">
+        <input type="text" name="AssigneeChange" id="AssigneeChangeInput" value="" class="custom-combobox-input ui-widget ui-widget-content ui-state-default ui-corner-left ui-autocomplete-input">
+        <a tabindex="-1" id="AssigneeChangeButton" class="ui-button ui-widget ui-state-default ui-button-icon-only custom-combobox-toggle ui-corner-right" role="button">
+          <span class="ui-button-icon ui-icon ui-icon-triangle-1-s"></span>
+          <span class="ui-button-icon-space"> </span>
+        </a>
+      </div>
+      <!-- Allow form submission with keyboard without duplicating the dialog button -->
+      <input type="submit" tabindex="-1" style="position:absolute; top:-1000px">
+    </fieldset>
+  </form>
+</div>
+<div id="AssigneeChangeMenu"></div>
+
+<%= javascript_tag do %>
+  $(function () {
+    /* global PurpleMine */
+    'use strict';
+
+    LDC.AssigneeChange = new LDC.AssigneeChange();
+  });
+<% end %>
