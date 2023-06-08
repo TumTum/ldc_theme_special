@@ -1,0 +1,16 @@
+#history.hide-details .journal, #history.hide-details .details, #history.hide-details .first-of-notes::before {
+    display: none
+}
+
+#history.hide-details .has-notes {
+    display: block
+}
+
+#history.hide-notes .journal, #history.hide-notes .wiki, #history.hide-notes .first-of-details::before {
+    display: none
+}
+
+#history.hide-notes .has-details {
+    display: block
+}
+

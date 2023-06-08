@@ -5,8 +5,10 @@ module LdcThemeSpecial
         if context[:controller] && (context[:controller].is_a?(IssuesController))
           return '' +
               stylesheet_link_tag("AssigneeChange.css", :plugin => "ldc_theme_special", :media => "screen") +
+              stylesheet_link_tag("HistoryTabs.css", :plugin => "ldc_theme_special", :media => "screen") +
               javascript_include_tag('AssigneeChange.js', :plugin => 'ldc_theme_special') +
-              javascript_include_tag('FieldDescription.js', :plugin => 'ldc_theme_special')
+              javascript_include_tag('FieldDescription.js', :plugin => 'ldc_theme_special') +
+              javascript_include_tag('HistoryTabs.js', :plugin => 'ldc_theme_special')
         else
           return ''
         end
